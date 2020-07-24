@@ -9,3 +9,6 @@ while True:
     # p.append(price)簡化前
     products.append([name, price]) #第1次簡化再簡化，
 print(products)
+
+for p in products: # 用for loop來印出商品跟價格(大清單products中的小清單)
+	print(p[0], '的價格是', p[1])
